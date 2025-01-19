@@ -3,4 +3,5 @@ langchain
 langchain_google_genai
 google-generativeai
 PyPDF2
+faiss-gpu
 langchain-community
