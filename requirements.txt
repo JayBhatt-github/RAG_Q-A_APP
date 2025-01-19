@@ -4,5 +4,4 @@ langchain_google_genai
 google-generativeai
 PyPDF2
 langchain-community
-langchain_community
 langchain_community.vectorstores
