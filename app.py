@@ -69,7 +69,7 @@ def main():
         # Contact section
         st.subheader("Contact Me")
         st.markdown("""
-            <div style="align-items: center; padding: 10px; border-radius: 5px;">
+            <div style="display: flex; align-items: center; padding: 10px; border-radius: 5px;">
                 <a href="https://github.com/yourusername" target="_blank" style="margin-right: 20px; text-decoration: none; color: black;">
                     <img src="https://img.icons8.com/ios-filled/50/000000/github.png" style="filter: invert(100%); width: 30px; height: 30px; margin-right: 5px;"/>
                     GitHub
