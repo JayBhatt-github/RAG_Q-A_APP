@@ -66,6 +66,21 @@ def main():
                 text_chunks = get_text_chunks(raw_text)
                 get_vector_store(text_chunks)
                 st.success("✅ Done processing!")
+        # Contact section
+        st.subheader("Contact Me")
+        st.markdown("""
+            <div style="display: flex; align-items: center;">
+                <a href="https://github.com/yourusername" target="_blank">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" style="margin-right: 10px;"/>
+                </a>
+                <a href="https://www.linkedin.com/in/yourusername/" target="_blank">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" style="margin-right: 10px;"/>
+                </a>
+                <a href="mailto:youremail@example.com" target="_blank">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/email.png" style="margin-right: 10px;"/>
+                </a>
+            </div>
+        """, unsafe_allow_html=True)
 
     # Input field for user question
     user_question = st.text_input("Enter your question")
